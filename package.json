@@ -1,11 +1,33 @@
 {
-  "name": "http-echo",
-  "version": "0.0.2",
-  "dependencies": {
+  "name": "OpenShift-Sample-App",
+  "version": "1.0.0",
+  "description": "OpenShift Sample Application",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "OpenShift",
+    "email": "ramr@example.org",
+    "url": "http://www.openshift.com/"
   },
-  "description": "Echo a specific HTTP response back, controlled by URL querystring parameters.",
-  "main": "server.js",
-  "repository": "https://github.com/hessyea/node.git",
-  "author": "Andrew Dunkman <andrew@dunkman.org>",
-  "license": "BSD"
+  "homepage": "http://www.openshift.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hessyea/node.git"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "express": "~3.4.4",
+    "ws": "~0.4.31"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "main": "server.js"
 }
