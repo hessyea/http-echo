@@ -1,6 +1,8 @@
 {
   "name": "http-echo",
   "version": "0.0.2",
+  "dependencies": {
+  },
   "description": "Echo a specific HTTP response back, controlled by URL querystring parameters.",
   "main": "index.js",
   "repository": "https://github.com/hessyea/node.git",
