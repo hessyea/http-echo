@@ -1,9 +1,4 @@
-{
-  "name": "http-echo",
-  "version": "0.0.2",
-  "description": "Echo a specific HTTP response back, controlled by URL querystring parameters.",
-  "main": "index.js",
-  "repository": "https://github.com/adunkman/http-echo",
-  "author": "Andrew Dunkman <andrew@dunkman.org>",
-  "license": "BSD"
-}
+"scripts": {
+  "start": "node server.js"
+},
+"main": "server.js"
